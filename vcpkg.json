@@ -16,10 +16,8 @@
 		"openssl",
 		{"name": "opencv4","features": ["cuda"]},
 		"openssl",
-		"pylon",
 		"python3",
 		"tinyply",
-		"wibu"
 	],
 	"overrides": [
 		{"name": "ceres","version-semver": "2.0.0","port-version":6},
