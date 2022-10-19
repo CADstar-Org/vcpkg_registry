@@ -1,9 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO CADstarGmbH/cupoch
-    REF 18201c40bbe531807a37303e1ad0bfdf723a04b2
+    REF e61c93298548ca6b04b65007e79c2c4a33c5f4b4
     SHA512  46c13e88bd0edad27b3d1f012787eec8b62f9aab626f0c0c12cc9bbeed554e486a128586d003713f44e1c7ba83a2394974c2cddafa4caac0063c23697c50ac6f 
-    HEAD_REF v0.1.3-cleanup
 )
 
 # TODO: Add options for conditional build
@@ -18,12 +17,15 @@ vcpkg_from_github(
 
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
-    OPTIONS -DSUPPORT_MAXWELL=OFF
-    OPTIONS -DSUPPORT_PASCAL=OFF
-    OPTIONS -DSUPPORT_VOLTA=OFF
-    OPTIONS -DSUPPORT_AMPERE=OFF
-    OPTIONS -DSUPPORT_TURING=ON
-
+    DISABLE_PARALLEL_CONFIGURE
+    #CUDA_TOOLKIT_ROOT_DIR=CUDA_PATH
+    OPTIONS
+        -DSUPPORT_MAXWELL=OFF
+        -DSUPPORT_PASCAL=OFF
+        -DSUPPORT_VOLTA=OFF
+        -DSUPPORT_AMPERE=OFF
+        -DSUPPORT_TURING=ON
+        
     )
 
 vcpkg_install_cmake()
