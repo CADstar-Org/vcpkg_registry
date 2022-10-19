@@ -1,0 +1,9 @@
+{
+	"versions": [
+		{
+			"version-string": "6.6",
+			"port-version": 1,
+			"path": "$/ports/wibu"
+		}
+	]
+}

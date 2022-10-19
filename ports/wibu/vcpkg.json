@@ -1,0 +1,10 @@
+{
+  "name": "wibu",
+  "port-version": 1,
+  "version-string": "6.6",
+  "homepage": "https://www.wibu.com/",
+  "description": "Wibu-Systems is an innovative security technology leader in the global software licensing market.",
+  "dependencies": [],
+
+  "default-features": []
+}

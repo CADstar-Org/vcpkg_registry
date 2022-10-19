@@ -1,0 +1,9 @@
+{
+	"versions": [
+		{
+			"version-string": "v0.3",
+			"port-version": 1,
+			"path": "$/ports/dlpack"
+		}
+	]
+}

@@ -3,5 +3,20 @@
 		"kind": "git",
 		"repository": "https://github.com/microsoft/vcpkg",
 		"baseline": "8ff168270bc5977384b008bec6e879e15089d850"
+	},
+	"registries": [
+	{
+		"kind": "filesystem",
+		"path": "",
+		"baseline": "default",
+		"packages": ["pylon",
+					"wibu",
+		   			"cnmem",
+		    		"stdgpu",
+			 		"dlpack",
+			  		"libvh",
+			   		"cupoch"
+				]
 	}
+	]
 }

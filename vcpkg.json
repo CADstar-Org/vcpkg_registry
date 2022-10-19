@@ -17,10 +17,16 @@
 		{"name": "opencv4","features": ["cuda"]},
 		"openssl",
 		"python3",
-		"tinyply"
+		"tinyply",
+		"pylon",
+		"wibu",
+		"cnmem",
+		"stdgpu",
+		"dlpack",
+		"libvh",
+		"cupoch"
 	],
 	"overrides": [
-		{"name": "ceres","version-semver": "2.0.0","port-version":6},
-		{"name": "cgal","version": "5.3"}
+	
 	]
 }

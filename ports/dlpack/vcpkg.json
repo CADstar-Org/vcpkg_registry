@@ -1,0 +1,9 @@
+{
+  "name": "dlpack",
+  "version-string": "v0.3",
+  "port-version": 1,
+  "homepage": "https://github.com/dmlc/dlpack",
+  "description": "DLPack: Open In Memory Tensor Structure",
+  "dependencies": ["cuda"],
+  "default-features": []
+}

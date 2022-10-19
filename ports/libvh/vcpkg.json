@@ -1,0 +1,10 @@
+{
+  "name": "libvh",
+  "port-version": 1,
+  "version-string": "0.1.0",
+  "homepage": "https://github.com/soroush/libvh",
+  "description": "An implementation of paper: Maximizing Parallelism in the Construction of BVHs, Octrees, and k-d Trees",
+  "dependencies": [],
+
+  "default-features": []
+}
