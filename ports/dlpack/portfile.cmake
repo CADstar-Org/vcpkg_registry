@@ -7,9 +7,6 @@ vcpkg_from_github(
     PATCHES fix_utf8.patch
 )
 
-set(THRUST_INCLUDE_DIR    C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/include)
-set(CUDA_TOOLKIT_ROOT_DIR C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6)
-
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA # Disable this option if project cannot be built with Ninja

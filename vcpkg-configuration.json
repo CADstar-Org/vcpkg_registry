@@ -15,7 +15,8 @@
 		    		"stdgpu",
 			 		"dlpack",
 			  		"libvh",
-			   		"cupoch"
+			   		"cupoch",
+					"opengv"
 				]
 	}
 	]

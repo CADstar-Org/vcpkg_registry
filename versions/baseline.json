@@ -33,6 +33,11 @@
 		"cupoch": {
 			"baseline": "v0.1.4.1",
 			"port-version": 1
+		},
+
+		"opengv": {
+			"baseline": "1.0",
+			"port-version": 1
 		}
 	}
 }
