@@ -17,8 +17,6 @@ vcpkg_configure_cmake(
         -DSTDGPU_BUILD_TESTS:BOOL=OFF
         # TODO: Make backend optional
         -DSTDGPU_BACKEND:STRING=STDGPU_BACKEND_CUDA
-		"-DTHRUST_INCLUDE_DIR:PATH=${THRUST_INCLUDE_DIR}"
-		"-DCUDA_TOOLKIT_ROOT_DIR:PATH=${CUDA_TOOLKIT_ROOT_DIR}"
 )
 
 vcpkg_install_cmake()
