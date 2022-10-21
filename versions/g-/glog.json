@@ -1,0 +1,9 @@
+{
+	"versions": [
+		{
+			"version-string": "0.6.0",
+			"port-version": 2,
+			"path": "$/ports/glog"
+		}
+	]
+}

@@ -16,7 +16,8 @@
 			 		"dlpack",
 			  		"libvh",
 			   		"cupoch",
-					"opengv"
+					"opengv",
+					"glog"
 				]
 	}
 	]

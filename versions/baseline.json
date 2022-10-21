@@ -38,6 +38,10 @@
 		"opengv": {
 			"baseline": "1.0",
 			"port-version": 1
+		},
+		"glog": {
+			"baseline": "0.6.0",
+			"port-version": 2
 		}
 	}
 }
