@@ -16,6 +16,7 @@
 		"geogram",
 		"glew",
 		"glm",
+		"freeglut",
 		"gtest",
 		"libigl",
 		"libpng",
