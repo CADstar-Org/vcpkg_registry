@@ -3,7 +3,12 @@
 		{
 			"version-string": "1.0",
 			"port-version": 1,
-			"path": "$/ports/opengv"
+			"path": "$/ports/opengv/opengv_1_0"
+		},
+		{
+			"version-string" : "1.0",
+			"port-version": 2,
+			"path": "$/ports/opengv/opengv_1_0_cadstar"
 		}
 	]
 }
