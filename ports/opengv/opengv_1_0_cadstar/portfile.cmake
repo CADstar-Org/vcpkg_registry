@@ -22,4 +22,13 @@ vcpkg_configure_cmake(
 
 vcpkg_install_cmake()
 
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/share/opengvConfig.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/opengv/)
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/share/opengvConfigVersion.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/opengv/)
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/share/opengvTargets-debug.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/opengv/)
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/share/opengvTargets-release.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/opengv/)
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/share/opengvTargets.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/opengv/)
+
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/lib/opengv.lib DESTINATION ${CURRENT_PACKAGES_DIR}/lib)
+file(COPY ${SOURCE_PATH}/opengv-${OPENGV_VERSION}/lib/opengvd.lib DESTINATION ${CURRENT_PACKAGES_DIR}/debug/lib)
+
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
