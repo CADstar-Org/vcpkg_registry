@@ -1,7 +1,7 @@
 {
 	"versions": [
 		{
-			"version-string": "v0.1.4.1",
+			"version-string": "v0.1.4.2",
 			"port-version": 1,
 			"path": "$/ports/cupoch"
 		}

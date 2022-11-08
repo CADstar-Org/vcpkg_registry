@@ -1,7 +1,7 @@
 {
   "name": "cupoch",
   "port-version": 1,
-  "version-string": "v0.1.4.1",
+  "version-string": "v0.1.4.2",
   "homepage": "https://github.com/soroush/cupoch",
   "description": "Robotics with GPU computing",
   "dependencies": [
