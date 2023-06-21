@@ -6,6 +6,12 @@
 	},
 	"registries": [
 	{
+      		"kind": "git",
+      		"repository": "https://github.com/northwindtraders/vcpkg-registry",
+      		"baseline": "f6a5d4e8eb7476b8d7fc12a56dff300c1c986131",
+      		"packages": [ "openmvs" ]
+    	},
+	{
 		"kind": "filesystem",
 		"path": "",
 		"baseline": "default",
