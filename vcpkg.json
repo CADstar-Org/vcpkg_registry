@@ -39,7 +39,10 @@
 		"azure-iot-sdk-c",
 		"azure-uamqp-c",
 		"parson",
-		"umock-c"
+		"umock-c",
+		"libjpeg-turbo",
+		"libpng",
+		"tiff"
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
