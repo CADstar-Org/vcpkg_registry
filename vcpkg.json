@@ -23,6 +23,7 @@
 		"libssh2",
 		"libvh",
 		"libtorch",
+		"libraw",
 		"opengl",
 		"opengv",
 		"openssl",
