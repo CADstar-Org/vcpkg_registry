@@ -35,6 +35,7 @@
 		"nlohmann-json",
 		"tinyply",
 		"wibu",
+		"jwt-cpp",
 		{"name": "opencv4","features": ["cuda"]},
 		"azure-c-shared-utility",
 		"azure-core-cpp",
