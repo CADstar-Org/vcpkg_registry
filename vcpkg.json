@@ -46,7 +46,8 @@
 		"umock-c",
 		"libjpeg-turbo",
 		"libpng",
-		"tiff"
+		"tiff",
+		"magic-enum"
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
