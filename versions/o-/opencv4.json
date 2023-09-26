@@ -1,0 +1,9 @@
+{
+	"versions": [
+		{
+			"version-string": "4.5.5",
+			"port-version": 6,
+			"path": "$/ports/opencv4"
+		}
+	]
+}
