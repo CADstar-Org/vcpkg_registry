@@ -162,7 +162,7 @@ if("cuda" IN_LIST FEATURES)
   )
   #Build some PTX code for more compatiblite binaries
   list(APPEND ADDITIONAL_BUILD_FLAGS
-    "-DCUDA_ARCH_PTX=\"5.2 8.0\""
+    "-DCUDA_ARCH_PTX=\"5.2;8.6\""
   )
 endif()
 

@@ -1,4 +1,3 @@
-message(STATUS "USING CUSTOM TRIPLET =================")
 set(VCPKG_TARGET_ARCHITECTURE x64)
 set(VCPKG_CRT_LINKAGE dynamic)
 
