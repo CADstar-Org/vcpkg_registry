@@ -36,7 +36,7 @@
 		"tinyply",
 		"wibu",
 		"jwt-cpp",
-		{"name": "opencv4","features": ["cuda"]},
+		{"name": "opencv4","features": ["cuda", "opengl"]},
 		"azure-c-shared-utility",
 		"azure-core-cpp",
 		"azure-identity-cpp",
