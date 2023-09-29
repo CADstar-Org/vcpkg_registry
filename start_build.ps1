@@ -12,4 +12,4 @@ if(Test-Path -Path "${PWD}/vcpkg") {
     ./bootstrap-vcpkg.bat
 }
 
-./vcpkg.exe install
+./vcpkg.exe install --overlay-triplets=../triplets
