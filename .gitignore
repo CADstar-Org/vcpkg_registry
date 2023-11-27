@@ -1,3 +1,5 @@
 vcpkg_installed
 vcpkg-export*/
-export*.7z
+export*.7z*
+.vscode/
+vcpkg/
