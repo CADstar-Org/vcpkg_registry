@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO CADstarGmbH/cupoch
-    REF 1dcd7ee4b6d0976e79394e8462fa00409bc5f3df
-    SHA512 7c767ee1201fcda4b977c8df0b9b14351e29b4ef56b034a5c1a160810e5ba984f585e41234123eb1faac7b2ddb9aef37e94a713df3fd6655c75d4a0d1a9bd33f  
+    REF 6ced8f6fa66d45f74e39aee5195d73dbfcbf7835
+    SHA512 656cfe3b6ba241a5e9ee6ca63791462bf5af97f14afce1058ad39b6f6eb7d9970d205f29e53bf39a662774dcca1327d2493ab4f1e3aab453ffdf10cc69f8c9b2  
 )
 
 # TODO: Add options for conditional build

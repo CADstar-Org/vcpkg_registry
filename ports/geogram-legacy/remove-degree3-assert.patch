@@ -1,0 +1,14 @@
+diff --git a/src/lib/geogram/mesh/mesh_degree3_vertices.cpp b/src/lib/geogram/mesh/mesh_degree3_vertices.cpp
+index a95dcff..5ac732a 100644
+--- a/src/lib/geogram/mesh/mesh_degree3_vertices.cpp
++++ b/src/lib/geogram/mesh/mesh_degree3_vertices.cpp
+@@ -161,9 +161,6 @@ namespace {
+         index_t adj1, index_t adj2, index_t adj3
+     ) {
+         geo_debug_assert(M.facets.nb_vertices(t) == 3);
+-        geo_debug_assert(adj1 != NO_FACET);
+-        geo_debug_assert(adj2 != NO_FACET);
+-        geo_debug_assert(adj3 != NO_FACET);
+         index_t c1 = M.facets.corners_begin(t);
+         index_t c2 = c1 + 1;
+         index_t c3 = c1 + 2;

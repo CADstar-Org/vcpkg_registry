@@ -31,7 +31,7 @@
 		},
 
 		"cupoch": {
-			"baseline": "v0.1.4.2",
+			"baseline": "v0.1.4.3",
 			"port-version": 1
 		},
 		"opencv4": {
@@ -45,6 +45,10 @@
 		"glog": {
 			"baseline": "0.6.0",
 			"port-version": 2
+		},
+		"geogram": {
+			"baseline": "1.8.6",
+			"port-version": 1
 		}
 	}
 }

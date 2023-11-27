@@ -24,7 +24,8 @@
 					"cupoch",
 					"opencv4",
 					"opengv",
-					"glog"
+					"glog",
+					"geogram"
 				]
 	}
 	]

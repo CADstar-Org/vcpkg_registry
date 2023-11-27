@@ -1,2 +1,3 @@
 vcpkg_installed
-vcpkg-export/
+vcpkg-export*/
+export*.7z
