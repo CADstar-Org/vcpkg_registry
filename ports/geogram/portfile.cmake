@@ -6,6 +6,7 @@ vcpkg_from_github(
     PATCHES
         fix-vcpkg-install.patch
         remove-degree3-assert.patch
+        better-rng.patch
 )
 
 #third_party: amgcl
