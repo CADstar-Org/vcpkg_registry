@@ -1,0 +1,6 @@
+{
+  "name": "qt5-imageformats",
+  "port-version": 1,
+  "version-string": "system",
+  "description": "System version of Qt"
+}

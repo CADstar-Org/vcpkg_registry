@@ -25,7 +25,8 @@
 					"opencv4",
 					"opengv",
 					"glog",
-					"geogram"
+					"geogram",
+					"vtk"
 				]
 	}
 	]
