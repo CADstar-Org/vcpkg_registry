@@ -20,6 +20,7 @@
 					"cnmem",
 					"stdgpu",
 					"dlpack",
+					"libtorch",
 					"libvh",
 					"cupoch",
 					"opencv4",

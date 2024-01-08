@@ -1,0 +1,9 @@
+{
+	"versions": [
+		{
+			"version-string": "2.0.0",
+			"port-version": 1,
+			"path": "$/ports/libtorch"
+		}
+	]
+}
