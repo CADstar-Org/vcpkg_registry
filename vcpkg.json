@@ -48,7 +48,8 @@
 		"libpng",
 		"tbb",
 		"tiff",
-		"magic-enum"
+		"magic-enum",
+		"cpprestsdk"
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
