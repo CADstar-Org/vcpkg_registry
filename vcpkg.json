@@ -53,6 +53,5 @@
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
-		{"name": "libtorch","version": "2.0.0"}
 	]
 }

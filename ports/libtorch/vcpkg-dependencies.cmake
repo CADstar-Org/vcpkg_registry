@@ -180,8 +180,8 @@ endif()
 
 if(USE_CUDA)
   set(CMAKE_CUDA_STANDARD 14)
-  find_package(CUDA  10.1 REQUIRED) # https://cmake.org/cmake/help/latest/module/FindCUDA.html
-  find_package(CUDNN 8.0  REQUIRED) # CuDNN::CuDNN
+  find_package(CUDA  11.6 REQUIRED) # https://cmake.org/cmake/help/latest/module/FindCUDA.html
+  find_package(CUDNN 8.9  REQUIRED) # CuDNN::CuDNN
   cuda_select_nvcc_arch_flags(ARCH_FLAGS 6.0 6.2 7.5)
   list(APPEND CUDA_NVCC_FLAGS
     ${ARCH_FLAGS}                # check TORCH_NVCC_FLAGS in this project
