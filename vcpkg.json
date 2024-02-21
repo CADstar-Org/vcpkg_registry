@@ -21,6 +21,7 @@
 		"libigl",
 		"libpng",
 		"libssh2",
+		"libtorch",
 		"libvh",
 		"libraw",
 		"opengl",

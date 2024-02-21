@@ -25,6 +25,11 @@
 			"port-version": 1
 		},
 
+		"libtorch": {
+			"baseline": "v2.0.0",
+			"port-version": 1
+		},
+
 		"libvh": {
 			"baseline": "0.1.0",
 			"port-version": 1
