@@ -49,7 +49,9 @@
 		"tbb",
 		"tiff",
 		"magic-enum",
-		"cpprestsdk"
+		"cpprestsdk",
+		"stdexec",
+		"grpc"
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
