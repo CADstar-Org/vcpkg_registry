@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'x64 windows master' }
+	agent { label 'x64 && windows && master' }
 
 	options {
 		// skipDefaultCheckout(true)// This is required if you want to clean before build
