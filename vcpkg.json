@@ -2,6 +2,7 @@
 	"name": "cadstar",
 	"version": "1.1",
 	"dependencies": [
+		"gmp",
 		"boost",
 		"ceres",
 		"cgal",
