@@ -30,7 +30,6 @@
 		"pcl",
 		"pylon",
 		"python3",
-		"stdgpu",
 		"spdlog",
 		"suitesparse",
 		"nlohmann-json",
