@@ -9,7 +9,7 @@
 			"kind": "git",
 			"repository": "https://github.com/microsoft/vcpkg",
 			"baseline": "89f00b3b8611028566a5264afce725cdfdfddbb4",
-			"packages": [ "gmp", "stdgpu" ]
+			"packages": [ "gmp" ]
 		},
 		{
 			"kind": "filesystem",
@@ -19,7 +19,6 @@
 				"pylon",
 				"wibu",
 				"cnmem",
-				"stdgpu",
 				"dlpack",
 				"libvh",
 				"cupoch",
