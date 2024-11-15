@@ -19,7 +19,6 @@
 				"pylon",
 				"wibu",
 				"cnmem",
-				"stdgpu",
 				"dlpack",
 				"libvh",
 				"cupoch",
