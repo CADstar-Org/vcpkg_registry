@@ -2,21 +2,9 @@
 	"default-registry": {
 		"kind": "git",
 		"repository": "https://github.com/microsoft/vcpkg",
-		"baseline": "8ff168270bc5977384b008bec6e879e15089d850"
+		"baseline": "10b7a178346f3f0abef60cecd5130e295afd8da4"
 	},
 	"registries": [
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "f6a5d4e8eb7476b8d7fc12a56dff300c1c986131",
-			"packages": [ "openmvs", "metis", "gklib", "stdexec" ]
-		},
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "89f00b3b8611028566a5264afce725cdfdfddbb4",
-			"packages": [ "gmp" ]
-		},
 		{
 			"kind": "filesystem",
 			"path": "",
