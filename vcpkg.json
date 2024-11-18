@@ -2,6 +2,7 @@
 	"name": "cadstar",
 	"version": "1.1",
 	"dependencies": [
+		"gmp",
 		"boost",
 		"ceres",
 		"cgal",
@@ -29,7 +30,6 @@
 		"pcl",
 		"pylon",
 		"python3",
-		"stdgpu",
 		"spdlog",
 		"suitesparse",
 		"nlohmann-json",
@@ -49,7 +49,9 @@
 		"tbb",
 		"tiff",
 		"magic-enum",
-		"cpprestsdk"
+		"cpprestsdk",
+		"stdexec",
+		"grpc"
 	],
 	"overrides": [
 		{"name": "cgal","version": "5.3"}
