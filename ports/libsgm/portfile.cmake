@@ -20,10 +20,10 @@ vcpkg_install_cmake()
 
 # Moves all .cmake files from /debug/share/stdgpu/ to /share/stdgpu/
 # See /docs/maintainers/vcpkg_fixup_cmake_targets.md for more details
-vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake TARGET_PATH share/${PORT})
+#vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake TARGET_PATH share/${PORT})
 #vcpkg_fixup_cmake_targets(CONFIG_PATH lib TARGET_PATH share/${PORT})
 #vcpkg_fixup_cmake_targets(CONFIG_PATH share/${PORT} TARGET_PATH share/${PORT})
-						  
+
 #file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/lib")
 #file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug")
 #file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/lib")
