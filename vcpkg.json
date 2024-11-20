@@ -8,7 +8,6 @@
 		"cgal",
 		"cnmem",
 		"cuda",
-		"cupoch",
 		"dlpack",
 		"eigen3",
 		"flann",
