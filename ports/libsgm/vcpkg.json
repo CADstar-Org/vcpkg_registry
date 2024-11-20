@@ -1,0 +1,9 @@
+{
+	"name": "libsgm",
+	"port-version": 1,
+	"version": "3.1.0",
+	"homepage": "https://github.com/fixstars/libSGM",
+	"description": "A CUDA implementation performing Semi-Global Matching",
+	"dependencies": ["cuda"],
+	"default-features": []
+}

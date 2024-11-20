@@ -11,6 +11,7 @@
     "eigen3", 
     "fmt", 
     "jsoncpp", 
+    "libsgm",
     "libvh", 
     "libjpeg-turbo", 
     "libpng", 
