@@ -18,7 +18,7 @@ vcpkg_install_cmake()
 #vcpkg_fixup_cmake_targets()
 #vcpkg_copy_pdbs()
 
-# Moves all .cmake files from /debug/share/stdgpu/ to /share/stdgpu/
+# Moves all .cmake files from ...   # TODO where should the cmake files go
 # See /docs/maintainers/vcpkg_fixup_cmake_targets.md for more details
 #vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake TARGET_PATH share/${PORT})
 #vcpkg_fixup_cmake_targets(CONFIG_PATH lib TARGET_PATH share/${PORT})
@@ -33,5 +33,3 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
 # Handle copyright
 file(INSTALL ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/${PORT} RENAME copyright)
 
-# Post-build test for cmake libraries
-#vcpkg_test_cmake(PACKAGE_NAME stdgpu)
