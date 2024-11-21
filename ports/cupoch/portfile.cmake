@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO neka-nat/cupoch
-    REF 7e5c760e8b6bc266aef1c6cd708a93d07b2d3702
-    SHA512 6f2ceb83222e808d27768731982bb67406061b3830539cb423237e2a5d0e77c9c70e65637b0ae74eddcce0540083de24d3fc665e8f6d50f852044c8bfd852edc  
+    REPO CADstarGmbH/cupoch
+    REF 6ced8f6fa66d45f74e39aee5195d73dbfcbf7835
+    SHA512 656cfe3b6ba241a5e9ee6ca63791462bf5af97f14afce1058ad39b6f6eb7d9970d205f29e53bf39a662774dcca1327d2493ab4f1e3aab453ffdf10cc69f8c9b2  
 )
 
 # TODO: Add options for conditional build
