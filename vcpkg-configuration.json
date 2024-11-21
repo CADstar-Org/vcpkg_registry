@@ -24,7 +24,6 @@
 				"dlpack",
 				"libvh",
 				"cupoch",
-				"opencv4",
 				"opengv",
 				"glog",
 				"geogram"
