@@ -2,7 +2,7 @@
   "name": "cupoch",
   "port-version": 1,
   "version-string": "v0.1.4.3",
-  "homepage": "https://github.com/neka-nat/cupoch",
+  "homepage": "https://github.com/soroush/cupoch",
   "description": "Robotics with GPU computing",
   "dependencies": [
     "cuda", 
@@ -11,7 +11,6 @@
     "eigen3", 
     "fmt", 
     "jsoncpp", 
-    "libsgm",
     "libvh", 
     "libjpeg-turbo", 
     "libpng", 
