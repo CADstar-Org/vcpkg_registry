@@ -9,7 +9,13 @@
 			"kind": "git",
 			"repository": "https://github.com/microsoft/vcpkg",
 			"baseline": "89f00b3b8611028566a5264afce725cdfdfddbb4",
-			"packages": [ "gmp", "openmvs", "metis", "gklib", "stdexec" ]
+			"packages": [ "gmp", "openmvs", "metis", "gklib" ]
+		},
+		{
+			"kind": "git",
+			"repository": "https://github.com/microsoft/vcpkg",
+			"baseline": "f7423ee180c4b7f40d43402c2feb3859161ef625",
+			"packages": [ "stdexec", "fmt" ]
 		},
 		{
 			"kind": "filesystem",

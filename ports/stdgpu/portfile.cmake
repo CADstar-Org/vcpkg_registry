@@ -12,9 +12,11 @@ vcpkg_configure_cmake(
     PREFER_NINJA
     OPTIONS 
         -DSTDGPU_BUILD_SHARED_LIBS:BOOL=OFF
-        -DSTDGPU_SETUP_COMPILER_FLAGS:BOOL=OFF
+        -DCMAKE_CUDA_ARCHITECTURES:STRING="all-major"
+        -DSTDGPU_BUILD_BENCHMARKS:BOOL=OFF
         -DSTDGPU_BUILD_EXAMPLES:BOOL=OFF
         -DSTDGPU_BUILD_TESTS:BOOL=OFF
+        -DSTDGPU_ENABLE_CONTRACT_CHECKS:BOOL=OFF
         # TODO: Make backend optional
         -DSTDGPU_BACKEND:STRING=STDGPU_BACKEND_CUDA
 )
@@ -26,7 +28,7 @@ vcpkg_install_cmake()
 
 # Moves all .cmake files from /debug/share/stdgpu/ to /share/stdgpu/
 # See /docs/maintainers/vcpkg_fixup_cmake_targets.md for more details
-vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake TARGET_PATH share/${PORT})
+vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake/${PORT} TARGET_PATH share/${PORT})
 #vcpkg_fixup_cmake_targets(CONFIG_PATH lib TARGET_PATH share/${PORT})
 #vcpkg_fixup_cmake_targets(CONFIG_PATH share/${PORT} TARGET_PATH share/${PORT})
 						  
@@ -38,6 +40,3 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
 
 # Handle copyright
 file(INSTALL ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/${PORT} RENAME copyright)
-
-# Post-build test for cmake libraries
-#vcpkg_test_cmake(PACKAGE_NAME stdgpu)
