@@ -4,6 +4,8 @@ vcpkg_from_github(
     REF 0d9298971b4b9b73fe8de99bf432cd33ffc3bf3b
     SHA512 af69104c6b30ebd1a40778321472b47787d1f972f30a20c373f296416ffa99b8a1db14c4aac046daf857b7d5e8dec10058294e2c530b1fede224429d433b7fd3
     HEAD_REF master
+    PATCHES
+        cuda_12.6_fixes.patch
 )
 
 vcpkg_configure_cmake(
