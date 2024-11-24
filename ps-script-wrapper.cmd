@@ -4,7 +4,7 @@
 set filename=%1
 
 if exist "%filename%" (
-  PowerShell.exe -NoProfile -NonInteractive -File "%filename%" "%2"
+  PowerShell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "%filename%" "%2"
 	
   :: Collect the exit code from the PowerShell script.
   set err=%errorlevel%
