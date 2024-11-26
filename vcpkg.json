@@ -24,6 +24,7 @@
 		"libssh2",
 		"libvh",
 		"libraw",
+		"libxml2",
 		"opengl",
 		"opengv",
 		"openssl",
