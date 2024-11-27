@@ -25,6 +25,7 @@
 		"libvh",
 		"libraw",
 		"libxml2",
+		"opencv",
 		"opengl",
 		"opengv",
 		"openssl",
