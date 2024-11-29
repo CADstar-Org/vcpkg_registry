@@ -45,7 +45,6 @@
 		"parson",
 		"umock-c",
 		"libjpeg-turbo",
-		"libpng",
 		"tbb",
 		"tiff",
 		"magic-enum",
