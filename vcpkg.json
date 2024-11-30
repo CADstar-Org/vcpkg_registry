@@ -55,6 +55,7 @@
 		"grpc"
 	],
 	"overrides": [
-		{"name": "cgal","version": "5.3"}
+		{"name": "cgal","version": "5.3"},
+		{"name": "spdlog","version": "1.14.1"}
 	]
 }

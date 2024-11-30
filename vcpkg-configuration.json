@@ -2,33 +2,9 @@
 	"default-registry": {
 		"kind": "git",
 		"repository": "https://github.com/microsoft/vcpkg",
-		"baseline": "10b7a178346f3f0abef60cecd5130e295afd8da4"
+		"baseline": "b2cb0da531c2f1f740045bfe7c4dac59f0b2b69c"
 	},
 	"registries": [
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "b2cb0da531c2f1f740045bfe7c4dac59f0b2b69c",
-			"packages": [ "libxml2" ]
-		},
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "89f00b3b8611028566a5264afce725cdfdfddbb4",
-			"packages": [ "gmp", "openmvs", "metis", "gklib" ]
-		},
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "f7423ee180c4b7f40d43402c2feb3859161ef625",
-			"packages": [ "stdexec", "fmt" ]
-		},
-		{
-			"kind": "git",
-			"repository": "https://github.com/microsoft/vcpkg",
-			"baseline": "b86c0c35b88e2bf3557ff49dc831689c2f085090",
-			"packages": [ "libpng" ]
-		},
 		{
 			"kind": "filesystem",
 			"path": "",
@@ -41,7 +17,6 @@
 				"dlpack",
 				"libvh",
 				"cupoch",
-				"opencv4",
 				"opengv",
 				"glog",
 				"geogram"
