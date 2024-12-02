@@ -6,6 +6,12 @@
 	},
 	"registries": [
 		{
+			"kind": "git",
+			"repository": "https://github.com/microsoft/vcpkg",
+			"baseline": "b86c0c35b88e2bf3557ff49dc831689c2f085090",
+			"packages": [ "libpng" ]
+		},
+		{
 			"kind": "filesystem",
 			"path": "",
 			"baseline": "default",
