@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'x64 && windows && master' }
+	agent { label 'x64 && windows && msvc-v143 && cuda-12.6' }
 
 	options {
 		// skipDefaultCheckout(true)// This is required if you want to clean before build

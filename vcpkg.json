@@ -24,6 +24,7 @@
 		"libssh2",
 		"libvh",
 		"libraw",
+		"libxml2",
 		"opengl",
 		"opengv",
 		"openssl",
@@ -54,6 +55,7 @@
 		"grpc"
 	],
 	"overrides": [
-		{"name": "cgal","version": "5.3"}
+		{"name": "cgal","version": "5.3"},
+		{"name": "spdlog","version": "1.14.1"}
 	]
 }
